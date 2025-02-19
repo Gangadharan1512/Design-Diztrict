@@ -6,7 +6,7 @@ import rasikase from "../../assets/rasikas-logo.png";
 import rasikasgf from "../../assets/grandfusion-logo.png";
 import dine from "../../assets/dine-logo.jpg";
 import arokya from "../../assets/arokya-logo.jpg";
-import jmed from "../../assets/jmed-logo.jpg";
+import jmed from "../../assets/jmed.jpg";
 
 const Collaborations = () => {
   return (
