@@ -6,15 +6,16 @@ import logof from '../../assets/logo-full.jpg'
 const Hero = () => {
   return (
     <div className='hero'>
-        <div className="left-hero">
-          <div className="empty">
-             <img src={logof} alt="" className='logof'/>
-          </div>
+        <div className="left">
+          <img src={logof} alt="" className='logof'/>
         </div>
-        <div className="right-hero">
-            <h1>Where Creativity Meets Precision</h1>
-            <h3>Your Vision, We Design, You Impress</h3>
-            <p></p>
+        <div className="right">
+          <div className="line">
+          <h1 className='black'>Designs</h1><h1 className="red">Speak</h1><h1 className="black">,</h1>
+        </div>
+        <div className="line">
+          <h1 className='black'>Creativity</h1><h1 className="red">Inspires</h1><h1 className="black">!</h1>
+        </div>
         </div>
     </div>
   )

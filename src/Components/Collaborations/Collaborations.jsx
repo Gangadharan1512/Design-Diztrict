@@ -1,23 +1,29 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
-import React from 'react'
-import './Collaborations.css'
-import rasikase from '../../assets/rasikas-logo.png'
-import rasikasgf from '../../assets/grandfusion-logo.png'
-import dine from '../../assets/dine-logo.jpg'
-import arokya from '../../assets/arokya-logo.jpg'
+import React from "react";
+import "./Collaborations.css";
+import rasikase from "../../assets/rasikas-logo.png";
+import rasikasgf from "../../assets/grandfusion-logo.png";
+import dine from "../../assets/dine-logo.jpg";
+import arokya from "../../assets/arokya-logo.jpg";
+import jmed from "../../assets/jmed-logo.jpg";
 
 const Collaborations = () => {
   return (
-    <div className='colab'>
-        <h1>COLLABORATIONS</h1>
-        <div className="col">
-            <img src={rasikase} alt="" className='logo-img'/>
-            <img src={rasikasgf}alt="" className='logo-img'/>
-            <img src={dine} alt="" className='logo-img'/>
-            <img src={arokya}alt="" className='logo-img'/>
-        </div>
+    <div className="colab">
+      <div className="head">
+        <h3 className="red">Collaborations.</h3>
+        <h3 className="black">Let's Create Something Amazing Together!</h3>
+      </div>
+      <div className="col">
+        <img src={rasikase} alt="" className="ele" />
+        <img src={rasikasgf} alt="" className="gf" />
+        <img src={dine} alt="" className="dine" />
+        <img src={arokya} alt="" className="arokya" />
+        <img src={jmed} alt="" className="jmed" />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Collaborations
+export default Collaborations;

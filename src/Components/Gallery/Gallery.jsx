@@ -55,9 +55,11 @@ const Gallery = () => {
 
   return (
     <div className='gallery'>
-        <h1>GALLERY</h1>
+        <div className="head">
+        <h3 className="red">Gallery.</h3>
+        <h3 className="black">Experience Our Master!</h3>
+      </div>
         <div className="photos">
-            <h2>Photos</h2>
             <div className="sub-photos">
                 <img src={next_icon} alt=""  className='next-btn' onClick={slideForward}/>
                 <img src={back_icon} alt=""  className='back-btn' onClick={slideBackward}/>

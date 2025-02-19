@@ -1,0 +1,17 @@
+.about{
+    padding-left: 50px;
+    padding-bottom: 80px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+}
+
+.head h3{
+    font-size: 30px;
+}
+
+.about p{
+    font-size: 22px;
+}

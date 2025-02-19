@@ -1,4 +1,29 @@
 .contact{
-    width: 100%;
-    background-color: rgb(233, 235, 229);
+    padding-left: 8%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(240, 240, 240);
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+}
+
+.con{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.sub p{
+    font-size: 20px;
 }
