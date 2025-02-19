@@ -3,7 +3,7 @@ import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
 import Services from './Components/Services/Services'
-import Gallery from './Components/Gallery/gallery'
+import Gallery from './Components/Gallery/Gallery'
 import Collaborations from './Components/Collaborations/Collaborations'
 import Contact from './Components/Contact/Contact'
 
