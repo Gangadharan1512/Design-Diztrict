@@ -1,0 +1,37 @@
+.services
+{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.services h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+.ser-left{
+    width: 50%;
+}
+
+.ser-right{
+    width: 50%;
+}
+
+.sub-ser
+{
+    margin: 30px 0;
+    height: 150px;
+    border: solid;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.sub-ser h2{
+    font-size: 40px;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+
+.sub-ser h4{
+    font-size: 20px;
+}

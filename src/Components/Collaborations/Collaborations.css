@@ -1,0 +1,22 @@
+.colab
+{
+    margin-top: 90px;
+    width: 100%;
+}
+
+.colab h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+.logo-img{
+    height: 200px;
+    width: 240px;
+}
+
+.col{
+    margin: 40px 80px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
