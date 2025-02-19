@@ -15,12 +15,6 @@ import arokya1 from '../../assets/Edits/arokya1.jpg'
 import arokya2 from '../../assets/Edits/arokya2.jpg'
 import arokya3 from '../../assets/Edits/arokya3.jpg'
 import arokya4 from '../../assets/Edits/arokya4.jpg'
-import elements from '../../assets/videos/rasikas-elements.mp4'
-import bestres from '../../assets/videos/best-res.mp4'
-import gf from '../../assets/videos/rasikas-gf.mp4'
-import doc from '../../assets/videos/kitchen-doc.mp4'
-import rgf from '../../assets/videos/rgf.mp4'
-
 
 
 
@@ -97,24 +91,6 @@ const Gallery = () => {
                 </div>
             </div>
         </div>
-
-
-        {/* <div className="videos">
-            <h2>Videos</h2>
-            <div className="sub-videos">
-                <img src={next_icon} alt=""  className='next-btn2' onClick={slideForward2}/>
-                <img src={back_icon} alt=""  className='back-btn2' onClick={slideBackward2}/>
-                <div className="slider2">
-                    <ul ref={slider2}>
-                        <li><div className="slide"><video src={elements} className='edit-videos'></video></div></li>
-                        <li><div className="slide"><video src={bestres}></video></div></li>
-                        <li><div className="slide"><video src={gf}></video></div></li>
-                        <li><div className="slide"><video src={doc}></video></div></li>
-                        <li><div className="slide"><video src={rgf}></video></div></li>
-                    </ul>
-                </div>
-            </div>
-        </div> */}
 
 
     </div>
