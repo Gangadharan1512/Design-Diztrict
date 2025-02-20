@@ -13,7 +13,7 @@ const Collaborations = () => {
     <div className="colab">
       <div className="head">
         <h3 className="red">Collaborations.</h3>
-        <h3 className="black">Let's Create Something Amazing Together!</h3>
+        <h3 className="black">Create & Elevate!!</h3>
       </div>
       <div className="col">
         <img src={rasikase} alt="" className="ele" />

@@ -5,10 +5,10 @@
 }
 
 .col{
-    padding: 40px 10px;
+    padding: 0px 10px;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
 }
 
 .ele{
@@ -20,15 +20,15 @@
     width: 180px;
 }
 .dine{
-    height: 220px;
-    width: 220px;
+    height: 270px;
+    width: 270px;
 }
 .arokya{
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     
 }
 .jmed{
     height: 200px;
-    width: 350px;
+    width: 370px;
 }

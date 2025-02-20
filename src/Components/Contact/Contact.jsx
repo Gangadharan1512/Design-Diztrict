@@ -12,7 +12,7 @@ const Contact = () => {
     <div className="contact">
       <div className="head">
         <h3 className="red">Contact.</h3>
-        <h3 className="black">Let's Create Together</h3>
+        <h3 className="black">Let's Create Together!</h3>
       </div>
       <div className="con">
         <div className="sub">
@@ -25,7 +25,7 @@ const Contact = () => {
         </div>
         <div className="sub">
           <img src={insta} alt="" className="icons"/>
-          <p>: @thedesigndiztrict</p>
+          <p>:<a href="https://www.instagram.com/thedesigndiztrict" target="_blank" rel="noopener noreferrer"> @thedesigndiztrict</a></p>
         </div>
         <div className="sub">
           <img src={www} alt="" className="icons"/>
