@@ -50,8 +50,34 @@
     align-items: end;
 }
 
+.linesh{
+    display: none;
+}
 
+@media(max-width: 1250px)
+{
 
+    .right{
+        display: none;
+    }
+
+    .rightsh{
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .linesh {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap: 10px;
+    }
+
+    .linesh h1{
+        font-size: 60px;
+    }
+}
 
 @media(max-width: 750px)
 {
