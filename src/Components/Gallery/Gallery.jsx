@@ -14,8 +14,8 @@ import arokya2 from "../../assets/Edits/arokya2.jpg";
 import arokya3 from "../../assets/Edits/arokya3.jpg";
 import arokya4 from "../../assets/Edits/arokya4.jpg";
 import farewell from "../../assets/Edits/farewell.jpg";
-import temp1 from "../../assets/Edits/template-1.jpg";
-import temp2 from "../../assets/Edits/template-2.jpg";
+import temp1 from "../../assets/Edits/Template-1.jpg";
+import temp2 from "../../assets/Edits/Template-2.jpg";
 
 
 
