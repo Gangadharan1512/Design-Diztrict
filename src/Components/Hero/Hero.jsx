@@ -17,6 +17,16 @@ const Hero = () => {
           <h1 className='black'>Creativity</h1><h1 className="red">Inspires</h1><h1 className="black">!</h1>
         </div>
         </div>
+        <div className="rightsh">
+          <div className="linesh">
+          <h1 className='black'>Designs</h1>
+        </div>
+        <div className="linesh"><h1 className="red">Speak</h1><h1 className="black">,</h1></div>
+        <div className="linesh">
+          <h1 className='black'>Creativity</h1>
+        </div>
+        <div className="linesh"><h1 className="red">Inspires</h1><h1 className="black">!</h1></div>
+        </div>
     </div>
   )
 }

@@ -6,7 +6,7 @@
 .bottom{
     display: flex;
     flex-direction: row;
-    gap: 35px;
+    gap: 35px;  
 }
 
 .ser{
@@ -15,7 +15,7 @@
     margin-top: 30px;
     padding: 40px 20px;
     /* background-image: linear-gradient( rgb(34, 34, 34), rgb(228, 228, 228)); */
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240, 0.7);
     width: 400px;
     height:300px;
     gap: 20px;
@@ -33,12 +33,34 @@
     margin-top: auto;
 }
 
-.ser:hover{
-    transform: scale(1.05);
-    background-image: linear-gradient( black, white);
-    box-shadow: 3px 3px 3px 3px rgb(209, 209, 209);
-}
 
-.ser:hover h4{
-    color: white;
+@media(max-width : 750px)
+{
+    .services{
+        padding-left: 0px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .bottom{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ser h4{
+        font-size: 20px;
+    }
+    
+    .ser p{
+        font-size: 16px;
+        text-align: end;
+        margin-top: auto;
+    }
+
+    .ser{
+        width: 350px;
+        height: 130px;
+        margin-top: 10px;
+        padding: 20px 30px ;
+    }
 }

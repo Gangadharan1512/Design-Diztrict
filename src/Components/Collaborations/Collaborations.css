@@ -30,5 +30,52 @@
 }
 .jmed{
     height: 200px;
-    width: 370px;
+    width: 400px;
+}
+
+.jk{
+    height: 250px;
+    height: 250px;
+}
+
+
+@media(max-width : 750px)
+{
+    .colab{
+        padding-left: 0px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .col{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .ele{
+        height: 115px;
+        width: 130px;
+    }
+    .gf{
+        height: 120px;
+        width: 120px;
+        margin-top: 20px;
+    }
+    .dine{
+        height: 200px;
+        width: 200px;
+    }
+    .arokya{
+        height: 190px;
+        width: 190px;
+        
+    }
+    .jmed{
+        height: 150px;
+        width: 250px;
+    }
+    
+    .jk{
+        height: 200px;
+        height: 200px;
+    }
 }

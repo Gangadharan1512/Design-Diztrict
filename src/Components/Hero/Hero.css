@@ -42,3 +42,59 @@
 .red{
     color: red;
 }
+
+.rightsh{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+
+@media(max-width: 750px)
+{
+    .logof{display: none;}
+
+    .left{
+        width: 0%;
+    }
+
+
+
+    .hero{
+        background-image: linear-gradient(rgba(220, 220, 220, 0.9),rgba(220, 220, 220, 0.9)), url('../../assets/logo-full.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .rightsh{
+        display: block;
+        width: 100%;
+        margin-right: 20px;
+        margin-top: 70px;
+    }
+
+    .line h1{
+        font-size: 45px;
+        flex-direction: column;
+    }
+
+    .linesh {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap: 10px;
+    }
+
+    .linesh h1{
+        font-size: 45px;
+    }
+    
+}

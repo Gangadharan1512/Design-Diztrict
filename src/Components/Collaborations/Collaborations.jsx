@@ -7,6 +7,7 @@ import rasikasgf from "../../assets/grandfusion-logo.png";
 import dine from "../../assets/dine-logo.jpg";
 import arokya from "../../assets/arokya-logo.jpg";
 import jmed from "../../assets/jmed.jpg";
+import jk from "../../assets/jk.jpg";
 
 const Collaborations = () => {
   return (
@@ -20,7 +21,11 @@ const Collaborations = () => {
         <img src={rasikasgf} alt="" className="gf" />
         <img src={dine} alt="" className="dine" />
         <img src={arokya} alt="" className="arokya" />
-        <img src={jmed} alt="" className="jmed" />
+        
+      </div>
+      <div className="col">
+      <img src={jmed} alt="" className="jmed" />
+      <img src={jk} alt="" className="jk" />
       </div>
     </div>
   );

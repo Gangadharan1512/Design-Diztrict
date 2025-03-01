@@ -14,6 +14,10 @@ import arokya2 from "../../assets/Edits/arokya2.jpg";
 import arokya3 from "../../assets/Edits/arokya3.jpg";
 import arokya4 from "../../assets/Edits/arokya4.jpg";
 import farewell from "../../assets/Edits/farewell.jpg";
+import temp1 from "../../assets/Edits/template-1.jpg";
+import temp2 from "../../assets/Edits/template-2.jpg";
+
+
 
 const Gallery = () => {
 
@@ -47,6 +51,10 @@ const Gallery = () => {
         <img src={arokya2} alt="" className="edit-images" onClick={(e)=>handleOpen(e.target.src)}/>
         <img src={arokya3} alt="" className="edit-images" onClick={(e)=>handleOpen(e.target.src)}/>
         <img src={farewell} alt="" className="edit-images" onClick={(e)=>handleOpen(e.target.src)}/>
+      </div>
+      <div className="photos">
+        <img src={temp1} alt="" className="edit-temp" onClick={(e)=>handleOpen(e.target.src)}/>
+        <img src={temp2} alt="" className="edit-temp" onClick={(e)=>handleOpen(e.target.src)}/>
       </div>
       {isOpen && (
         <div className="popup" onClick={() => setIsOpen(null)}>

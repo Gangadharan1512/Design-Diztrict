@@ -16,3 +16,22 @@
     margin-top: 10px;
     font-size: 22px;
 }
+
+
+@media(max-width : 750px)
+{
+    .about{
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+
+    .head h3{
+        font-size: 18px;
+    }
+    
+    .about p{
+        font-size: 15px;
+        text-align: justify;
+    }
+}
