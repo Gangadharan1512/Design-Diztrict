@@ -97,18 +97,22 @@
     }
 
     .right{
-        display: none;
+        display: flex;
+        width: 100%;
+        margin-top:260px;
+        margin-right: 10px;
     }
 
     .rightsh{
-        display: block;
+        display:  none;
+        flex-direction: row;
         width: 100%;
         margin-right: 20px;
         margin-top: 70px;
     }
 
     .line h1{
-        font-size: 45px;
+        font-size: 30px;
         flex-direction: column;
     }
 
@@ -120,7 +124,7 @@
     }
 
     .linesh h1{
-        font-size: 45px;
+        font-size: 25px;
     }
     
 }
