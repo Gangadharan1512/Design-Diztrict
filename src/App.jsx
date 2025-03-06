@@ -7,6 +7,7 @@ import Gallery from './Components/Gallery/Gallery'
 import Collaborations from './Components/Collaborations/Collaborations'
 import Contact from './Components/Contact/Contact'
 import About from './Components/About/About'
+import ParallaxComponent from './Components/Parallax/ParallaxComponent'
 
 const App = () => {
   return (

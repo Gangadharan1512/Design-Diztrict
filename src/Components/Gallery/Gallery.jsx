@@ -52,10 +52,6 @@ const Gallery = () => {
         <img src={arokya3} alt="" className="edit-images" onClick={(e)=>handleOpen(e.target.src)}/>
         <img src={farewell} alt="" className="edit-images" onClick={(e)=>handleOpen(e.target.src)}/>
       </div>
-      <div className="photos">
-        <img src={temp1} alt="" className="edit-temp" onClick={(e)=>handleOpen(e.target.src)}/>
-        <img src={temp2} alt="" className="edit-temp" onClick={(e)=>handleOpen(e.target.src)}/>
-      </div>
       {isOpen && (
         <div className="popup" onClick={() => setIsOpen(null)}>
           <img src={isOpen} alt="" className="popup-image"/>
