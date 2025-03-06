@@ -21,11 +21,11 @@ const Contact = () => {
         </div>
         <div className="sub">
           <img src={mail} alt="" className="icons"/>
-          <p>: <a href="mailto: thedesigndiztrict@gmail.com">thedesigndiztrict@gmail.com</a></p>
+          <p>: <a href="mailto: digitrnds@gmail.com">digitrnds@gmail.com</a></p>
         </div>
         <div className="sub">
           <img src={insta} alt="" className="icons"/>
-          <p>:<a href="https://www.instagram.com/thedesigndiztrict" target="_blank" rel="noopener noreferrer"> @thedesigndiztrict</a></p>
+          <p>:<a href="https://www.instagram.com/digitrnds" target="_blank" rel="noopener noreferrer"> @digitrnds</a></p>
         </div>
         <div className="sub">
           <img src={www} alt="" className="icons"/>
