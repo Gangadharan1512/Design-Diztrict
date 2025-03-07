@@ -29,7 +29,7 @@ const Contact = () => {
         </div>
         <div className="sub">
           <img src={www} alt="" className="icons"/>
-          <p>: <a href="https://design-diztrict.vercel.app">https://design-diztrict.vercel.app</a></p>
+          <p>: <a href="https://digitrnds.vercel.app">https://digitrnds.vercel.app</a></p>
         </div>
       </div>
     </div>
